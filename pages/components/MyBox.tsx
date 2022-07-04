@@ -9,7 +9,6 @@ import {
   Switch,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import { AppProps } from "next/app";
 import { useState } from "react";
 
 function MyBox() {

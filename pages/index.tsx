@@ -1,6 +1,12 @@
-import { Container } from "@chakra-ui/react";
-import MyBox from "./components/MyBox";
+import { Container, VStack } from "@chakra-ui/react";
+import { MyBox, FixedDistortions, SelectItems } from "./Exports";
 
 export default function Home() {
-  return <MyBox />;
+  return (
+    <VStack>
+      <MyBox />
+      <FixedDistortions />
+      <SelectItems />
+    </VStack>
+  );
 }
